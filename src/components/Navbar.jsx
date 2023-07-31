@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -9,9 +9,9 @@ function Navbar() {
             WikiCountries
           </a>
         </div>
-        <Link to="/">HomePage</Link>
+        {/* <Link to="/">HomePage</Link>
         <Link to="/:countryId">Country</Link>
-        <Link to="/${countryId.alpha3Code}">Country</Link>
+        <Link to="/${countryId.alpha3Code}">Country</Link> */}
       </nav>
     </>
   );

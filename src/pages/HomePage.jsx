@@ -26,7 +26,10 @@ function HomePage() {
         return (
           // eslint-disable-next-line react/jsx-key
           <div key={oneCountry._id}>
-            <Link to="/CountryDetailsPage">
+            <img
+              src={`https://flagpedia.net/data/flags/icon/72x54/${oneCountry.alpha2Code.toLowerCase()}.png`}
+            />
+            <Link to={`/${oneCountry.alpha3Code}`}>
               <p style={{ fontSize: "20px", fontWeight: "bold" }}>
                 {oneCountry.name.common}
               </p>

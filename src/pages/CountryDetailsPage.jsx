@@ -25,9 +25,9 @@ function CountryDetails() {
       {details.map((oneCountry) => {
         return (
           <>
-            <img
+            {/* <img
               src={`https://flagpedia.net/data/flags/icon/72x54/ ${oneCountry.alpha2Code.toLowerCase()}.png`}
-            />
+            /> */}
             <Link to="/countryDetail/ ${oneCountry.alpha3Code}">
               {" "}
               <p style={{ fontSize: "20px", fontWeight: "bold" }}>
